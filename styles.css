@@ -160,3 +160,89 @@ div.fadeIn {
     transform: translateY(0px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .score {
+    height: 40vh;
+  }
+
+  .score h2 {
+    font-size: 50px;
+  }
+
+  .score p {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .intro h1 {
+    font-size: 50px;
+  }
+
+  .match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
+  }
+
+  .winner {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .score {
+    height: 40vh;
+  }
+
+  .score h2 {
+    font-size: 50px;
+  }
+
+  .score p {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .intro {
+    height: 60vh;
+  }
+
+  .intro h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
+  }
+
+  .winner {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+  }
+
+  .player-hand,
+  .computer-hand {
+    width: 40%;
+  }
+
+  .match button {
+    width: 100px;
+    margin: 4px;
+  }
+}
